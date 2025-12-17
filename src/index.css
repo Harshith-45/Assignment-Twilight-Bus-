@@ -12,7 +12,7 @@
 
 .bus-background {
   min-height: 100vh;
-  background-image: url("bg.avif");
+  background-image: url("/bg.avif");
   background-repeat: repeat-x;
   background-size: contain;
   background-position: 0% bottom;
