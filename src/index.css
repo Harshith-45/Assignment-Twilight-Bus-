@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@keyframes moveBus {
+  0% {
+    background-position: 0% bottom;
+  }
+  100% {
+    background-position: 200% bottom;
+  }
+}
+
+.bus-background {
+  min-height: 100vh;
+  background-image: url("bg.avif");
+  background-repeat: repeat-x;
+  background-size: contain;
+  background-position: 0% bottom;
+  animation: moveBus 25s linear infinite;
+}
