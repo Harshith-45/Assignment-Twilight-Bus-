@@ -1,3 +1,10 @@
+body {
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0c4a6e 100%);
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+
 @keyframes moveBus {
   0% {
     background-position: 0% bottom;
