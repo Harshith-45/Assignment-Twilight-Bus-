@@ -630,6 +630,7 @@ const AdminDashboard = ({
   };
 
   return (
+    <div className="bus-background">
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
       <div className="max-w-7xl mx-auto p-6">
         <header className="mb-6 flex justify-between items-center">
@@ -1036,6 +1037,7 @@ const AdminDashboard = ({
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };
